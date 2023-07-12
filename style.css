@@ -1,19 +1,21 @@
 .container-fluid {
-    background:black;
-    outline: .1px double black;
-    padding: 5%;
+  background: black;
+  outline: .1px double black;
+  padding: 5%;
 }
+
 .jumbotron {
-    background-image: url("./img/background.jpg");
-    background-size: 100%;
-    background-repeat:no-repeat;
-    display: compact;
-    color:white;
+  background-image: url("./img/background.jpg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
 }
-h2 {text-align: center;
-    color: white}
-h1 {text-align: center;
-    color: white}
-p {text-align: center;
-    color: white}
-.span6 {style="float: none; margin: 0 auto;}
+
+h1, h2, p {
+  color: white;
+}
+
+.span6 {
+  margin: 0 auto;
+}
